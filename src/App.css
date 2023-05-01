@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+
+/* Navbar css */
+
+.navbar{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  height: 61px;
+  padding-left: 19px;
+  padding-right: 41px;
+  box-sizing: border-box;
+  border-top: 3px solid black;
+  margin: 40px auto;
+}
+
+.menu{
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+
+
+.logo{
+  display: flex;
+  align-items: center;
+  width: 27%;
+  justify-content: space-around;
+  position: relative;
+}
+
+.logo h2{
+  color: #d1410c;
+}
+
+.search{
+  position: relative;
+}
+
+.search-icon{
+  position: absolute;
+  color: #a9a8b3;
+  top: 9px;
+  left: 8px;
+}
+
+.logo input{
+  height: 35px;
+  width: 165px;
+  border: 0;
+  background-color: #ebebeb;
+  padding-left: 33px;
+}
+
+.userprofile{
+      display: flex;
+    align-items: center;
+}
+
+.userprofile img{
+  width: 31px;
+}
+
+/* landing page css */
+
+.posts{
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* post component css */
+
+.post{
+  display: flex;
+  margin-top: 28px;
+  height: 154px; 
+}
+
+.coverimage{
+  width: 50%;
+  overflow: hidden;
+}
+
+.coverimage img{
+  width: 290px;
+}
+
+.desc{
+  margin-left: 24px;
+  width: -webkit-fill-available;
+}
+
+
+
+.desc h3{
+  font-weight: 500;
+}
+
+.btns{
+  float: right;
+  margin-top: 45px;
+  justify-content: space-between;
+  display: flex;
+  width: 73px;
+}
+
+.btns button{
+  font-size: 18px;
+  background: none;
+  border: none;
+}
